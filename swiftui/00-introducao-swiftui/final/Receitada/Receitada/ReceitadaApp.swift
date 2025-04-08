@@ -2,7 +2,7 @@
 //  ReceitadaApp.swift
 //  Receitada
 //
-//  Created by Gustavo Munhoz Correa on 03/04/25.
+//  Created by Gustavo Munhoz Correa on 08/04/25.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct ReceitadaApp: App {
     var body: some Scene {
         WindowGroup {
-            TabBarView()
+            ListaReceitasView()
         }
     }
 }
