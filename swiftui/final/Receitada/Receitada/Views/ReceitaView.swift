@@ -62,9 +62,7 @@ struct ReceitaView: View {
                 }
             }
             .padding()
-        }
-        .navigationBarTitleDisplayMode(.inline)
-        .toolbarVisibility(.hidden, for: .tabBar)
+        }        
     }
 }
 
